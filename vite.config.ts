@@ -4,6 +4,7 @@ import path from "path"
 import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
+  base: "/", //proper routing on Vercel
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
