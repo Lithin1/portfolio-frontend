@@ -1,0 +1,5 @@
+export const SERVER = "https://lithin-portfolio-backend.onrender.com/api/v1"
+export const EDUCATION_API = "/education"
+export const EXPERIENCE_API = "/experience"
+export const PROJECTS_API = "/projects"
+export const ACHIEVEMENTS_API = "/achievements"
